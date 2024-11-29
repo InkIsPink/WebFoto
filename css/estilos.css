@@ -1,0 +1,53 @@
+.contenedor_titulo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+
+.contenedor_enlaces {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contenido_portada {
+    flex: 50%;
+    border: 5px;
+    border-color: black;
+    border-radius: 5px;
+    padding: 25px;
+    margin: 10px;
+}
+
+.columnas {
+    display: flex;
+    align-items: center;
+}
+
+.contenido_producto {
+    flex: 80%;
+    border: 5px;
+    border-color: black;
+    border-radius: 5px;
+    padding: 25px;
+    margin: 10px;
+}
+
+.pie_pagina {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    margin: 10px;
+    padding: 0px;
+    width: 100%;
+    height: 25px;
+}
